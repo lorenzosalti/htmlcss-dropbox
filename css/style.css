@@ -66,7 +66,7 @@ main .large {
 }
 
 main .large h1 {
-    flex-grow: 1;
+    /* flex-grow: 1; */
     font-size: 75px;
 }
 
@@ -76,6 +76,42 @@ main .large .text {
 
 main .large .image {
     max-width: calc(100% - 400px);
+}
+
+main .main-info .container.small {
+    flex-direction: column;
+}
+main .grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -25px;
+    flex-grow: 1;
+}
+
+main .grid h2 {
+    width: 100%;
+}
+
+main .grid .fatturazione {
+    width: 100%;
+}
+
+main .grid .fatturazione div {
+    display: inline-block;
+}
+
+main .grid .card {
+    background-color: darkolivegreen;
+    width: calc(100% / 3 - 50px);
+}
+
+main .grid > * {
+    margin: 25px;
+    flex-shrink: 0;
+}
+
+main .grid .card.full-row {
+    flex-grow: 1;
 }
 
 /* FOOTER */
