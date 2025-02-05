@@ -70,11 +70,11 @@ main .large h1 {
     font-size: 75px;
 }
 
-main .large .text {
+main .text {
     max-width: 400px;
 }
 
-main .large .image {
+main .image {
     max-width: calc(100% - 400px);
 }
 
