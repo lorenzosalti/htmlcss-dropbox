@@ -66,7 +66,6 @@ main .large {
 }
 
 main .large h1 {
-    /* flex-grow: 1; */
     font-size: 75px;
 }
 
@@ -121,8 +120,39 @@ footer {
 
 footer .container.large {
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
-footer div {
+footer div * {
     color: #ffffff;
+}
+
+footer .container.lists {
+    width: 100%;
+    justify-content: space-between;
+    padding: 100px 0px;
+}
+
+footer .container.lists div * {
+    padding: 10px 0;
+    list-style-type: none;
+}
+
+footer .lists h6 {
+    font-size: 25px;
+}
+
+footer .lists ul li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer .language {
+    padding: 50px 25px 50px 0;
+    color: #999999;
+    border-top: 1px solid #ffffff;
+}
+
+footer .language i {
+    color: #999999;
 }
