@@ -57,12 +57,13 @@ img {
 header {
     background-color: #ffffff;
     justify-content: space-between;
-    padding: 24px;
+    padding: 0 24px;
     box-shadow: 0 1px 3px 0px #999999;
     position: sticky;
     top: 0;
     left: 0;
     z-index: 2;
+    height: 95px;
 }
 
 header ul {
@@ -81,6 +82,18 @@ header ul li {
 
 header #logo img {
     height: 25px;
+}
+
+header .container li.hover {
+    padding: 0 16px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: content-box;
+}
+
+header .container li.hover:hover {
+    border-bottom: 2px solid black;
 }
 
 /* MAIN */
