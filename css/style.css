@@ -25,12 +25,14 @@ body {
 
 img {
     width: 100%;
+    display: block;
 }
 
 .button {
     background-color: #0061fe;
     padding: 10px 16px;
     width: fit-content;
+    text-align: center;
 }
 
 .button a {
@@ -125,8 +127,9 @@ main .grid .fatturazione div {
 }
 
 main .grid .card {
-    background-color: darkolivegreen;
+    /* background-color: bisque ; */
     width: calc(100% / 3 - 50px);
+    /* height: 200px; */
 }
 
 main .grid > * {
@@ -139,7 +142,73 @@ main .grid .card.full-row {
 }
 
 main .grid .card.bordered {
+    border: 1px solid #d0cfd4;
+}
 
+main .grid .card.bordered .titolo {
+    border-bottom: 1px solid #d0cfd4;
+    text-align: center;
+    padding: 13px;
+    margin-bottom: 35px;
+}
+
+main .grid .card.bordered .tariffa {
+    padding: 0 30px;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+main .grid .card.bordered .tariffa ul {
+    margin: 50px 0;
+    list-style-type: none;
+    margin-left: -6px;
+}
+
+main .grid .card.bordered .tariffa ul li {
+    margin-bottom: 25px;
+    font-size: 16px;
+    display: flex;
+}
+
+main .grid .card.bordered .tariffa ul li div:first-child {
+    margin-right: 5px;
+}
+
+main .grid .card.bordered .tariffa ul li .check {
+    color: #0061fe;
+}
+
+main .grid .card.bordered .button {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+main .grid .card.bordered h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+main .grid .card.bordered h5 {
+    margin-bottom: -15px;
+    font-size: 14px;
+}
+
+main .grid .card.bordered .price {
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+main .grid .card.bordered .rata {
+    color: #d0cfd4;
+    font-size: 14px;
+}
+
+main .grid .card.bordered .separatore {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 45px;
+    border-top: 1px solid #d0cfd4;
 }
 
 /* FOOTER */
