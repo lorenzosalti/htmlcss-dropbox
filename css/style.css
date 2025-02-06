@@ -274,6 +274,29 @@ main .grid .card.full-row .tariffa .button {
     max-width: 240px;
 }
 
+/* paragrafo centrale con immagine */
+main .container.centrale {
+    margin-bottom: 165px;
+}
+
+main .container.centrale .text {
+    padding: 55px 50px;
+    width: 40%;
+}
+
+main .container.centrale .image {
+    width: 60%;
+}
+
+main .container h3.centrale {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+main .container.centrale .text p {
+    margin-bottom: 35px;
+}
+
 /* FOOTER */
 footer {
     background-color: #000000;
