@@ -274,6 +274,18 @@ main .grid .card.full-row .tariffa .button {
     max-width: 240px;
 }
 
+/* seconda griglia */
+main .grid h2.no-border {
+    margin-bottom: 80px;
+}
+
+main .grid .card.no-border img {
+    margin-bottom: 15px;
+}
+main .grid .card.no-border h3 {
+    margin-bottom: 40px;
+}
+
 /* paragrafo centrale con immagine */
 main .container.centrale {
     margin-bottom: 165px;
