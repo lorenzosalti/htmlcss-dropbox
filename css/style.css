@@ -112,6 +112,7 @@ main .grid {
     flex-wrap: wrap;
     margin: -25px;
     flex-grow: 1;
+    margin-bottom: 220px;
 }
 
 main .grid h2 {
@@ -211,6 +212,21 @@ main .grid .card.bordered .separatore {
     border-top: 1px solid #d0cfd4;
 }
 
+main .grid .card.full-row .tariffa {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 35px;
+    gap: 100px;
+}
+
+main .grid .card.full-row .tariffa .description {
+    flex-grow: 2;
+}
+
+main .grid .card.full-row .tariffa .button {
+    height: fit-content;
+    max-width: 240px;
+}
 /* FOOTER */
 footer {
     background-color: #000000;
