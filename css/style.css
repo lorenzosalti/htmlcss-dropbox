@@ -7,7 +7,8 @@
 
 /* GLOBAL */
 body {
-    font-family: sans-serif;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
 }
 
 .container {
@@ -135,6 +136,10 @@ main .grid > * {
 
 main .grid .card.full-row {
     flex-grow: 1;
+}
+
+main .grid .card.bordered {
+
 }
 
 /* FOOTER */
