@@ -48,6 +48,7 @@ img {
 .button.transparent a {
     color: #000000;
 }
+
 /* HEADER */
 header {
     background-color: #ffffff;
@@ -58,7 +59,6 @@ header {
     top: 0;
     left: 0;
     z-index: 2;
-    /* background-color: bisque; */
 }
 
 header ul {
@@ -138,20 +138,44 @@ main .grid {
 
 main .grid h2 {
     width: 100%;
+    font-size: 40px;
 }
 
+/* radio buttons */
 main .grid .fatturazione {
     width: 100%;
+    font-size: 14px;
+}
+
+main .grid .fatturazione * {
+    vertical-align: middle;
+}
+
+main .grid .fatturazione div:nth-child(even) {
+    margin-right: 50px;
+}
+
+main .grid .radio {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+main .grid .radio.sel {
+    border: 5px solid #0061fe;
+}
+
+main .grid .radio.no-sel {
+    border: 1px solid #d0cfd4;
 }
 
 main .grid .fatturazione div {
     display: inline-block;
 }
 
+/* griglie */
 main .grid .card {
-    /* background-color: bisque ; */
     width: calc(100% / 3 - 50px);
-    /* height: 200px; */
 }
 
 main .grid > * {
@@ -163,6 +187,7 @@ main .grid .card.full-row {
     flex-grow: 1;
 }
 
+/* prima griglia */
 main .grid .card.bordered {
     border: 1px solid #d0cfd4;
 }
@@ -177,7 +202,6 @@ main .grid .card.bordered .titolo {
 main .grid .card.bordered .tariffa {
     padding: 0 30px;
     flex-direction: column;
-    /* flex-wrap: wrap; */
 }
 
 main .grid .card.bordered .tariffa ul {
@@ -233,6 +257,7 @@ main .grid .card.bordered .separatore {
     border-top: 1px solid #d0cfd4;
 }
 
+/* card larga della prima griglia */
 main .grid .card.full-row .tariffa {
     flex-direction: row;
     justify-content: space-between;
@@ -248,6 +273,7 @@ main .grid .card.full-row .tariffa .button {
     height: fit-content;
     max-width: 240px;
 }
+
 /* FOOTER */
 footer {
     background-color: #000000;
