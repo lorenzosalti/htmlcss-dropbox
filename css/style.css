@@ -122,6 +122,7 @@ main .image {
 /* main info */
 main .main-info {
     margin-top: 100px;
+    margin-bottom: 180px;
 }
 
 main .main-info .container.small {
@@ -136,7 +137,12 @@ main .grid {
     margin-bottom: 220px;
 }
 
-main .grid h2 {
+/* main .grid h2 {
+    width: 100%;
+    font-size: 40px;
+} */
+
+main h2 {
     width: 100%;
     font-size: 40px;
 }
@@ -307,6 +313,15 @@ main .container h3.centrale {
 
 main .container.centrale .text p {
     margin-bottom: 35px;
+}
+
+/* paragrafo finale */
+main .main-info .finale h2 {
+    margin-bottom: 60px;
+}
+
+main .main-info .finale a {
+    font-size: 18px;
 }
 
 /* FOOTER */
