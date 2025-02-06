@@ -80,6 +80,7 @@ header #logo img {
 }
 
 /* MAIN */
+/* jumbotron */
 main .jumbo {
     background-color: #b4d0e6;
 }
@@ -88,24 +89,44 @@ main .container {
     margin: 0 auto;
 }
 
-main .large {
+main .jumbo .large {
     flex-wrap: wrap;
+    position: relative;
+    top: 100px;
+    left: 0;
 }
 
 main .large h1 {
     font-size: 75px;
+    margin-bottom: 60px;
 }
 
 main .text {
-    max-width: 400px;
+    width: 30%;
+    font-size: 16px;
+}
+
+main .text div {
+    margin-bottom: 35px;
+}
+
+main .text .arrow {
+    margin-top: 50px;
+    font-size: 42px;
 }
 
 main .image {
-    max-width: calc(100% - 400px);
+    width: 70%;
+}
+
+/* main info */
+main .main-info {
+    margin-top: 100px;
 }
 
 main .main-info .container.small {
     flex-direction: column;
+    padding-top: 100px;
 }
 main .grid {
     display: flex;
