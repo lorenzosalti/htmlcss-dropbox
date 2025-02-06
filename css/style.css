@@ -47,9 +47,15 @@ img {
 }
 /* HEADER */
 header {
+    background-color: #ffffff;
     justify-content: space-between;
     padding: 24px;
-    background-color: bisque;
+    box-shadow: 0 1px 3px 0px #999999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    /* background-color: bisque; */
 }
 
 header ul {
